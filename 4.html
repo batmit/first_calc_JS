@@ -9,29 +9,29 @@
     <script LANGUAGE="JavaScript" type="text/javascript">
 
 
-        var um = window.prompt("Informe um número: ");
+        var ValorA = prompt("Informe um número: ");
 
-        var dois = window.prompt("Informe outro número: ");
+        var ValorB = prompt("Informe outro número: ");
 
-        var oque = window.prompt("Digite: 1 para soma, 2 para subtração, 3 para divisão e 4 para multiplicação");
+        var oque = prompt("Digite: 1 para soma, 2 para subtração, 3 para divisão e 4 para multiplicação");
 
         var resultado;
 
         if(oque == 1) {
 
-            var resultado = (um + dois)
+            resultado = parseFloat(ValorA) + parseFloat(ValorB);
 
         } if(oque == 2) {
 
-            var resultado = (um - dois)
+            resultado = (ValorA - ValorB);
 
         } if(oque == 3) {
 
-            var resultado = (um / dois)
+            resultado = (ValorA / ValorB);
 
         } if(oque == 4) {
 
-            var resultado = (um * dois)
+            resultado = (ValorA * ValorB);
 
         }
         
